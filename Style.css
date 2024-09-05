@@ -1,0 +1,113 @@
+@font-face {
+  font-family: bebasneue;
+  src: url(recursos/fuentes/BebasNeue.ttf);
+}
+@font-face {
+  font-family: opensans;
+  src: url(recursos/fuentes/OpenSans.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #50c7c9;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+/* Header */
+.navbar {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-nav {
+  display: flex;
+  /* flex-wrap: nowrap;
+  overflow-x: auto; */
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar-title {
+  color: #fff;
+  font-family: opensans;
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-right: 20px;
+}
+.link {
+  color: #2f9b9c;
+  text-decoration: none;
+  font-family: opensans;
+  letter-spacing: 2px;
+  font-weight: 900;
+  transition: color 0.2s, border-bottom 0.05s ease-in-out;
+  padding-left: 4px;
+}
+.link:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.titulo-principal {
+  margin-top: 150px;
+  text-align: center;
+  font-family: bebasneue;
+  color: #fff;
+  letter-spacing: 10px;
+  font-size: 100px;
+}
+.titulo-principal span {
+  color: #1d6162;
+}
+.descripcion-principal {
+  color: #fff;
+  font-family: opensans;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 40px;
+}
+.acciones-rapidas {
+  margin: 55px 20px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.acciones-rapidas a {
+  font-family: bebasneue;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  margin: 0 20px;
+  background-color: #2f9b9c;
+  padding: 10px;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+.acciones-rapidas a:hover {
+  background-color: #1d6162;
+}
+.informacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.informacion a {
+  font-family: opensans;
+  font-size: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  color: #2f9b9c;
+  font-family: opensans;
+  text-align: center;
+  margin: 0 20px;
+  transition: 0.2s;
+}
+
+.azul-oscuro {
+  background-color: #2f9b9c;
+  height: 100px;
+}
