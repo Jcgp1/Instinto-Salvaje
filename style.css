@@ -1,10 +1,10 @@
 @font-face {
   font-family: bebasneue;
-  src: url(/archivos/fuentes/BebasNeue.ttf);
+  src: url(archivos/fuentes/BebasNeue.ttf);
 }
 @font-face {
   font-family: opensans;
-  src: url(/archivos/fuentes/OpenSans.ttf);
+  src: url(archivos/fuentes/OpenSans.ttf);
 }
 * {
   margin: 0;
